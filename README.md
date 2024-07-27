@@ -145,7 +145,7 @@ Output
 ```
 
 ### Documentation:
-https://github.com/m92vyas/url_to_LLM_ready_input/wiki/Documentation
+https://github.com/ai92-github/llm-reader/wiki/Documentation
 
 ### Inspiration:
 Scrapegraph-ai: https://github.com/ScrapeGraphAI/Scrapegraph-ai
