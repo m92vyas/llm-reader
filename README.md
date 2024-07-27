@@ -1,7 +1,7 @@
 # Webpage to LLM ready input text
 Pre-processing html source text before giving it as input to the LLM improves extraction/scraping accuracy especially if you want to extract website and image links required for most scraping operations like scraping an e-commerce website.
 
-Use this library to turn any html source text to LLM friendly text. Open source alternative to free jina reader api and firecrawl api.
+Use this library to turn any html source text to LLM friendly text. Fully open source alternative to jina reader api and firecrawl api.
 
 ### Install:
 ```python
@@ -146,6 +146,12 @@ Output
 
 ### Documentation:
 https://github.com/m92vyas/url_to_LLM_ready_input/wiki/Documentation
+
+### Inspiration:
+Scrapegraph-ai: https://github.com/ScrapeGraphAI/Scrapegraph-ai
+
+### Future Roadmap:
+Complete Scraping tool
 
 ### Support & Feedback:
 - Share and consider giving a Star if you found this repo helpful.
