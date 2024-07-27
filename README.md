@@ -5,7 +5,7 @@ Use this library to turn any html source text to LLM friendly text. Open source 
 
 ### Install:
 ```python
-pip install git+https://github.com/m92vyas/url_to_LLM_ready_input.git
+pip install git+https://github.com/ai92-github/llm-reader.git
 ```
 
 ### Import:
