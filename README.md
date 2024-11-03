@@ -147,13 +147,10 @@ Output
 ### Documentation:
 https://github.com/ai92-github/llm-reader/wiki/Documentation
 
-### Inspiration:
-Scrapegraph-ai: https://github.com/ScrapeGraphAI/Scrapegraph-ai
-
 ### Future Roadmap:
 Complete Scraping tool
 
 ### Support & Feedback:
 - Share and consider giving a Star if you found this repo helpful.
-- Open to work: maharishi92vyas@gmail.com
+- I am open to work and actively looking for an remote job opportunity: maharishi92vyas@gmail.com / https://www.linkedin.com/in/maharishi-vyas
 - Open any issues or feature request.
