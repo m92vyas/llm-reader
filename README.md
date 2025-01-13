@@ -183,3 +183,4 @@ print(llm_text)
 - Share and consider giving a Star if you found this repo helpful.
 - I am open to work and actively looking for an remote job opportunity: maharishi92vyas@gmail.com / https://www.linkedin.com/in/maharishi-vyas
 - Open any issues or feature request.
+- If you wish you can contribute using [this PayPal link](https://www.paypal.com/ncp/payment/TEHFVH575LGVQ).
