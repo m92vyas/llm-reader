@@ -150,7 +150,7 @@ https://github.com/ai92-github/llm-reader/wiki/Documentation
 
 ### To Scrape without getting Blocked:
 - You may have to develop your own solution using proxies etc. or
-- To avoid getting blocked you can try out one of the paid solutions like [this API](https://scrapingant.com/llm-ready-data-extraction?ref=nzgzyju) that provide such anti-blocking services.
+- To avoid getting blocked you can try out one of the paid solutions like [scrapingant](https://scrapingant.com/llm-ready-data-extraction?ref=nzgzyju) that provide such anti-blocking services.
 - You can use any other web scraping API to get the page source without getting blocked and then use the `get_processed_text` function shown above to get LLM ready text for data extraction using LLM.
 - The above is an affiliate link (consider using the same to support this work) and the cost is much cheaper than firecrawl API.
 - You can also write your code as below where the first attempt is made using the free solution given above and if you get blocked you fallback to the paid option to save some paid api calls.
