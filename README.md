@@ -179,6 +179,12 @@ print(llm_text)
 - Then you can use the previous data extraction code to extract any data using LLM (no need to use any paid product here as you have the LLM ready text now, just the LLM provider API key if you are using one.)
 
 
+### What if the extracted results are inaccurate:
+- Some websites' structure can cause the LLM to misinterpret certain fields like it may assign the image link of the next product to the previous product while extractions.
+- You can connect with me to resolve such issues. The HTML cleaning code has to be modified as per the inaccuracy and then things will work for that website.
+- As the code is open sourced you can modify the code and handle such issues which is not possible for closed sourced options. If you are using any paid solution to avoid getting blocked you can get only the source HTML from the paid provider and use the modified cleaning code to avoid such inaccuracies.
+- If you understand web scraping script you can modify the `get_processed_text` function. It generally involves finding the css selector or xpath that will help you to separate out sections of the webpage that have issues (like separate out product wise) and then use some delimiter between them and merge them to get the page content.
+
 ### Support & Feedback:
 - Share and consider giving a Star if you found this repo helpful.
 - I am open to work and actively looking for an remote job opportunity: maharishi92vyas@gmail.com / https://www.linkedin.com/in/maharishi-vyas
