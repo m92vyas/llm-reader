@@ -87,7 +87,7 @@ payload = {
   'seed': 0,
   "temperature": 0,
   "top_p": 0.001,
-  "max_tokens": 1024,
+  # "max_tokens": 1024, # if you want to limit the output tokens. this may keep the output json structure incomplete.
   "n": 1,
   "frequency_penalty": 0, "presence_penalty": 0
 }
