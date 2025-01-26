@@ -4,12 +4,12 @@ from urllib.parse import urljoin
 from minify_html import minify
 from inscriptis import get_text
 
-def get_processed_text(page_source: str, base_url: str,
-                 html_parser: str ='lxml',
-                 keep_images: bool =True, remove_svg_image: bool =True, remove_gif_image: bool =True, remove_image_types: list =[],
-                 keep_webpage_links: bool =True,
-                 remove_script_tag: bool =True, remove_style_tag: bool =True, remove_tags: list =[]
-                 ) -> str:
+async def get_processed_text(page_source: str, base_url: str,
+                             html_parser: str ='lxml',
+                             keep_images: bool =True, remove_svg_image: bool =True, remove_gif_image: bool =True, remove_image_types: list =[],
+                             keep_webpage_links: bool =True,
+                             remove_script_tag: bool =True, remove_style_tag: bool =True, remove_tags: list =[]
+                             ) -> str:
   """
   process html text. This helps the LLM to easily extract/scrape data especially image links and web links.
 
