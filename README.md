@@ -23,11 +23,11 @@ url= <url_to_scrape>
 # first time the below function will take some time as it loads the web driver, subsequent run will be faster
 # You can use your own function to get the html source text 
 
-page_source = get_page_source(url)
+page_source = await get_page_source(url)
 
 # get LLM ready input text from html source text
 
-llm_text = get_processed_text(page_source, url)
+llm_text = await get_processed_text(page_source, url)
 print(llm_text)
 ```
 ### Example Usage:
@@ -40,10 +40,10 @@ from url_to_llm_text.get_llm_input_text import get_processed_text
 url = "https://www.ikea.com/in/en/cat/corner-sofas-10671/"
 
 # get page html source text using this library function or any other means
-page_source = get_page_source(url)
+page_source = await get_page_source(url)
 
 # get llm ready text and pass the text to your LLM prompt template
-llm_text = get_processed_text(page_source, url)
+llm_text = await get_processed_text(page_source, url)
 
 # prompt template
 prompt_format = """extract the product name, product link, image link and price for all the products given in the below webpage. The format should be:
@@ -162,8 +162,8 @@ from url_to_llm_text.get_llm_input_text import get_processed_text  # to get llm 
 url = <url to scrape>
 
 # using the free solution
-page_source = get_page_source(url) # you can also use your own code to get the page source
-llm_text = get_processed_text(page_source, url)
+page_source = await get_page_source(url) # you can also use your own code to get the page source
+llm_text = await get_processed_text(page_source, url)
 
 # using the paid option if getting blocked
 if llm_text == '' or len(llm_text)<100:
