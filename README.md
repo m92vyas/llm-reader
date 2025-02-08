@@ -147,7 +147,7 @@ Output
 ```
 
 ### Documentation:
-https://github.com/ai92-github/llm-reader/wiki/Documentation
+https://github.com/m92vyas/llm-reader/wiki/Documentation
 
 
 ### To Scrape without getting Blocked:
