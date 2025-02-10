@@ -3,7 +3,7 @@ Pre-processing html source text before giving it as input to the LLM improves ex
 
 Use this library to turn any html source text to LLM friendly text. Fully open source alternative to jina reader api and firecrawl api.
 
-You can also refer my other repo https://github.com/m92vyas/AI-web_scraper for direct scraping tools to scrape single/multiple links, web search+scraping/extraction with just a simple query.
+You can also refer my other repo [AI-web_scraper](https://github.com/m92vyas/AI-web_scraper) for direct scraping tools to scrape single/multiple links, web search+scraping/extraction with just a simple query.
 
 ### Install:
 ```python
@@ -190,5 +190,5 @@ print(llm_text)
 ### Support & Feedback:
 - Share and consider giving a Star if you found this repo helpful.
 - I am open to work and actively looking for an remote job opportunity: maharishi92vyas@gmail.com / https://www.linkedin.com/in/maharishi-vyas
+- Also try out the other repo [AI-web_scraper](https://github.com/m92vyas/AI-web_scraper) and leave a Star there if you find it useful.
 - Open any issues or feature request.
-- If you wish you can contribute using [this PayPal link](https://www.paypal.com/ncp/payment/TEHFVH575LGVQ).
