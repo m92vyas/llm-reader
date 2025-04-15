@@ -151,34 +151,9 @@ https://github.com/m92vyas/llm-reader/wiki/Documentation
 
 
 ### To Scrape without getting Blocked:
-- You may have to develop your own solution using proxies etc. or
-- To avoid getting blocked you can try out one of the paid solutions like [scrapingant](https://scrapingant.com/llm-ready-data-extraction?ref=nzgzyju) that provide such anti-blocking services.
-- You can use any other web scraping API to get the page source without getting blocked and then use the `get_processed_text` function shown above to get LLM ready text for data extraction using LLM.
-- The above is an affiliate link (consider using the same to support this work) and the cost is much cheaper than firecrawl API.
-- You can also write your code as below where the first attempt is made using the free solution given above and if you get blocked you fallback to the paid option to save some paid api calls.
-```python
-import requests
-from url_to_llm_text.get_html_text import get_page_source   # you can also use your own code to get the page source
-from url_to_llm_text.get_llm_input_text import get_processed_text  # to get llm ready text for free
-
-url = <url to scrape>
-
-# using the free solution
-page_source = await get_page_source(url) # you can also use your own code to get the page source
-llm_text = await get_processed_text(page_source, url)
-
-# using the paid option if getting blocked
-if llm_text == '' or len(llm_text)<100:
-  api_key = <your_api_key>
-  response = requests.get("https://api.scrapingant.com/v2/markdown", params={"url": url, "x-api-key": api_key})
-  if response.status_code == 200:
-      llm_text = response.json()["markdown"]
-  else:
-      print("Error while getting llm_text:", response.text)
-
-print(llm_text)
-```
-- Then you can use the previous data extraction code to extract any data using LLM (no need to use any paid product here as you have the LLM ready text now, just the LLM provider API key if you are using one.)
+ - Apart from the open source option shared here, i am in the process of creating a paid API service that handles website blocking, dynamic content etc.
+ - If you can interested you can connect with me (view contact details in my profile) for API trial or for any feature request.
+ - It would be pay as you go with no monthly commitment and cheaper than existing similar services.
 
 
 ### What if the extracted results are inaccurate:
