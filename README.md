@@ -152,8 +152,9 @@ https://github.com/m92vyas/llm-reader/wiki/Documentation
 
 ### To Scrape without getting Blocked:
  - Apart from the open source option shared here, i am in the process of creating a paid API service that handles website blocking, dynamic content etc.
- - If you can interested you can connect with me (view contact details in my profile) for API trial or for any feature request.
- - It would be pay as you go with no monthly commitment and cheaper than existing similar services.
+ - If you are interested you can connect with me (view contact details in my profile) for API trial or for any feature request.
+ - It will also have parsing solutions for various documents like pdfs/docx, full website crawling & parsing, video, audio with complete RAG solution which can handle and retrieve complex layouts, images, tables, math equations etc. (RAG as a service)
+ - I can develop a custom solution as per your requirements.
 
 
 ### What if the extracted results are inaccurate:
