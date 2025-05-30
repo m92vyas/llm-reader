@@ -165,6 +165,6 @@ https://github.com/m92vyas/llm-reader/wiki/Documentation
 
 ### Support & Feedback:
 - Share and consider giving a Star if you found this repo helpful.
-- I am open to work and actively looking for an remote job opportunity: maharishi92vyas@gmail.com / https://www.linkedin.com/in/maharishi-vyas
+- I am available for freelance work: maharishi92vyas@gmail.com / https://www.linkedin.com/in/maharishi-vyas
 - Also try out the other repo [AI-web_scraper](https://github.com/m92vyas/AI-web_scraper) and leave a Star there if you find it useful.
 - Open any issues or feature request.
