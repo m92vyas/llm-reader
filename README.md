@@ -8,7 +8,7 @@ The Below library will scrape and give you LLM ready text but without any anti-b
 
 You can also Extract Structured Data and Tables using the same API.
 
-~~Now go and subscribe to the paid api~~ Now back to our open source solution.
+Now back to our open source solution.
 
 
 # Webpage to LLM Ready Input Text
