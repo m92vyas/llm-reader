@@ -155,7 +155,11 @@ https://github.com/m92vyas/llm-reader/wiki/Documentation
 
 
 ### To Scrape and Crawl without getting Blocked:
- - Visit [ParseExtract](https://parseextract.com) for paid API that offers additional anti-blocking feature.
+- You can use APIs from various providers like [Zyte](https://www.zyte.com/), [Scrappey](https://scrappey.com/) and many others that will give you HTML source bypassing any blocking attempts.
+- Then just pass the HTML to the `get_processed_text` function to parse and clean the webpage.
+
+### To Parse & OCR PDFs, Images, Docx Documents:
+- Visit [ParseExtract](https://parseextract.com) for APIs related to Parsing, OCR, Extraction for RAG, Agents, Tables and other LLM use cases.
 
 
 ### Support & Feedback:
