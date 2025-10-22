@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+
 from url_to_llm_text.get_html_text import get_page_source
 from url_to_llm_text.get_llm_input_text import get_processed_text
 
@@ -19,4 +21,5 @@ async def url_to_llm_text(url: str,
         return llm_text
     except Exception as e:
         print('Error while scraping url: ',str(e))
+
         return ''
