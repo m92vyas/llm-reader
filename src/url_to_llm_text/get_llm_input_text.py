@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+
 from bs4 import BeautifulSoup
 import re
 from urllib.parse import urljoin
