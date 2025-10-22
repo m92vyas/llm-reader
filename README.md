@@ -155,7 +155,7 @@ https://github.com/m92vyas/llm-reader/wiki/Documentation
 
 
 ### To Scrape and Crawl without getting Blocked:
-- You can use APIs from various providers like [Zyte](https://refer.zyte.com/77Jdfg), [Scrappey](https://scrappey.com/) and many others that will give you HTML source bypassing any blocking attempts.
+- You can use affordable Pay as You Go APIs from providers like [Zyte](https://refer.zyte.com/77Jdfg) (Affiliate Link), [Scrappey](https://scrappey.com/) and others that will give you HTML source bypassing any blocking attempts.
 - Then just pass the HTML to the `get_processed_text` function to parse and clean the webpage.
 
 
