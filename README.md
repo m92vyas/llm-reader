@@ -157,7 +157,7 @@ https://github.com/m92vyas/llm-reader/wiki/Documentation
 ### To Scrape and Crawl without getting Blocked:
 - You can use [ParseExtract](https://parseextract.com). A Pay-As-You-Go API (hosted version of this repo). No minimum amount, No Expiry of Credits.
 - You can also Crawl any webpage using [ParseExtract](https://parseextract.com).
-- APIs for Document OCR/Parsing, Structured Data Extraction, Table Extracation(and conversion to excel/csv) can also be used with the same credits.
+- APIs for Document OCR/Parsing, Structured Data Extraction, Table Extraction(with conversion to excel/csv) can also be used with the same credits. Works well for scanned documents, documents with tables, images, math equations, special symbols, complex layouts and multiple languages.
 
 
 ### License:
