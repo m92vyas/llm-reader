@@ -155,12 +155,9 @@ https://github.com/m92vyas/llm-reader/wiki/Documentation
 
 
 ### To Scrape and Crawl without getting Blocked:
-- You can use affordable Pay as You Go APIs from providers like [Zyte](https://refer.zyte.com/77Jdfg) (Affiliate Link), [Scrappey](https://scrappey.com/) and others that will give you HTML source bypassing any blocking attempts.
-- Then just pass the HTML to the `get_processed_text` function to parse and clean the webpage.
-
-
-### To Parse & OCR PDFs, Images, Docx Documents:
-- Visit [ParseExtract](https://parseextract.com) for APIs related to Parsing, OCR, Extraction for RAG, Agents, Tables and other LLM use cases.
+- You can use [ParseExtract](https://parseextract.com). A Pay-As-You-Go API (hosted version of this repo). No minimum amount, No Expiry of Credits.
+- You can also Crawl any webpage using [ParseExtract](https://parseextract.com).
+- APIs for Document OCR/Parsing, Structured Data Extraction, Table Extracation(and conversion to excel/csv) can also be used with the same credits.
 
 
 ### License:
