@@ -6,9 +6,20 @@ Use this library to turn any webpage/url to LLM friendly text. Fully open source
 
 You can also refer to my other repo [AI-web_scraper](https://github.com/m92vyas/AI-web_scraper) for direct scraping tools that will do `web search` and `scrapes multiple links` with `just a simple query`. It supports multiple LLMs, Web Search and Extracts Data as per your written instructions.
 
+
+### Update for Old Users:
+
+We have switched from Selenium to Playwright for concurrent web scraping support. Kindly install the required playwright dependencies as given below.
+
+
 ### Install:
 ```python
+# install llm-reader
 pip install git+https://github.com/m92vyas/llm-reader.git
+
+# install playwright dependencies. we are using playwright for async/concurrent web scraping support.
+playwright install  # to download browser.
+playwright install-deps  # or sudo playwright install-deps or sudo apt-get install libnspr4 libnss3 libasound2
 ```
 
 ### Import:
@@ -23,7 +34,6 @@ from url_to_llm_text.get_llm_input_text import get_processed_text   # pass html 
 url= <url_to_scrape>
 
 # get html source text
-# first time the below function will take some time as it loads the web driver, subsequent run will be faster
 # You can use your own function to get the html source text 
 
 page_source = await get_page_source(url)
@@ -32,6 +42,19 @@ page_source = await get_page_source(url)
 
 llm_text = await get_processed_text(page_source, url)
 print(llm_text)
+
+### or use asyncio ### 
+
+# import asyncio
+# url = <url_to_scrape>
+# # creating a simple function here. View documentation for more parameter details.
+# async def get_llm_ready_text(url: str) -> str:
+#     page_source = await get_page_source(url)
+#     llm_text = await get_processed_text(page_source, url)
+#     return llm_text
+
+# llm_text = asyncio.run(get_llm_ready_text(url))
+# print(llm_text)
 ```
 
 ### Example Usage:

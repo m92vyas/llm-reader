@@ -11,7 +11,7 @@ setup(
     , url              = 'https://github.com/m92vyas/llm-reader.git'
     , keywords         = 'url to llm ready input text'
     , install_requires = [
-                            'selenium',
+                            'pytest-playwright',
                             'beautifulsoup4',
                             'inscriptis',
                             'minify_html'
