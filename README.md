@@ -189,6 +189,7 @@ This project is open-source and available under the [MIT License](LICENSE)
 
 ### Support & Feedback:
 - Share and consider giving a Star if you found this repo helpful.
+- Open any issues or feature request.
 - Also try out the other repo [AI-web_scraper](https://github.com/m92vyas/AI-web_scraper) and leave a Star there if you find it useful.
 - Try out [ParseExtract](https://parseextract.com) for one stop API solution for OCR, Structured Data Extraction, Table Extraction for RAG, Agents, and other LLM Parsing / Extraction needs.
-- Open any issues or feature request.
+- Found this repo useful for saving some of your API subscription costs? You can sponsor it for as little as $1 for encouragement and support! [Sponsor here](https://checkout.dodopayments.com/buy/pdt_HpJcB5tvN3euViX9c4v7M?quantity=1)
