@@ -18,8 +18,8 @@ async def get_page_source(url: str,
     html text
   """
   try:
-    if 'https' not in url:
-      url = url.replace('http','https')
+    # if 'https' not in url:
+    #   url = url.replace('http','https')
     
     page_source = ''
     playwright = await async_playwright().start()
