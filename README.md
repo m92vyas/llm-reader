@@ -1,8 +1,8 @@
 # Webpage to LLM Ready Input Text
 
-Pre-processing webpage before giving it as input to the LLM improves extraction/scraping accuracy especially if you want to extract website and image links required for most scraping operations like scraping an e-commerce website.
+Pre-processing webpage before giving it as input to the LLM improves extraction/scraping accuracy especially if you want to extract website and image links, tables required for most scraping operations like scraping an e-commerce website.
 
-Use this library to turn any webpage/url to LLM friendly text. Fully open source alternative to jina reader api and firecrawl api.
+Use this library to turn any webpage/url to LLM friendly text. Fully open source alternative to firecrawl and jina reader api.
 
 You can also refer to my other repo [AI-web_scraper](https://github.com/m92vyas/AI-web_scraper) for direct scraping tools that will do `web search` and `scrapes multiple links` with `just a simple query`. It supports multiple LLMs, Web Search and Extracts Data as per your written instructions.
 
@@ -19,7 +19,7 @@ pip install git+https://github.com/m92vyas/llm-reader.git
 
 # install playwright dependencies. we are using playwright for async/concurrent web scraping support.
 playwright install  # to download browser.
-playwright install-deps  # or sudo playwright install-deps or sudo apt-get install libnspr4 libnss3 libasound2
+playwright install-deps
 ```
 
 ### Import:
