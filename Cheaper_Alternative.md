@@ -1,6 +1,7 @@
 # A Cost Effective Alternative to paid options like Firecrawl
 
-- Firecrawl does not provide Pay-As-You-Go Pricing, you can use [Scrappey](https://scrappey.com/?ref=rishi) to get HTML page source without getting blocked and then pass it to the llm-reader `get_processed_text` function to get LLM Ready Text. 
+- Firecrawl does not provide Pay-As-You-Go Pricing, you can use [Scrappey](https://scrappey.com/?ref=rishi) to get HTML page source without getting blocked and then pass it to the llm-reader `get_processed_text` function to get LLM Ready Text.
+- You can use any API to get HTML page source or your own set up as well. I have found [Scrappey](https://scrappey.com/?ref=rishi) to be most cost effective and performant.
 
 ---
 
