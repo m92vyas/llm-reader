@@ -6,11 +6,13 @@ Use this library to turn any webpage/url to LLM friendly text. Fully open source
 
 You can also refer to my other repo [AI-web_scraper](https://github.com/m92vyas/AI-web_scraper) for direct scraping tools that will do `web search` and `scrapes multiple links` with `just a simple query`. It supports multiple LLMs, Web Search and Extracts Data as per your written instructions.
 
+---
 
 ### Update for Old Users:
 
 We have switched from Selenium to Playwright for concurrent web scraping support. Kindly install the required playwright dependencies as given below.
 
+---
 
 ### Install:
 ```python
@@ -56,6 +58,8 @@ print(llm_text)
 # llm_text = asyncio.run(get_llm_ready_text(url))
 # print(llm_text)
 ```
+
+---
 
 ### Example Usage:
 
@@ -173,18 +177,27 @@ Output
     ......}
 ```
 
+---
+
 ### Documentation:
 https://github.com/m92vyas/llm-reader/wiki/Documentation
 
+---
 
 ### To Scrape and Crawl without getting Blocked:
-- You can use [ParseExtract](https://parseextract.com). A Pay-As-You-Go API (hosted version of this repo). No minimum amount, No Expiry of Credits. You can also Crawl any webpage using ParseExtract.
-- APIs for Document OCR/Parsing, Structured Data Extraction, Table Extraction(with conversion to excel/csv) can also be used with the same credits. Works well for scanned documents, documents with tables, images, math equations, special symbols, complex layouts and multiple languages.
+- You can use [this guide](Cheaper_Alternative.md) for the most performant and affordable option compared to solutions like Firecrawl. Pay-As-You-Go Pricing with good performance and rates cheaper than Firecrawl. You will save in your subscription cost and also in downstream LLM usage cost.
 
+---
 
 ### License:
 This project is open-source and available under the MIT License.
 
+---
+
+### If you need OCR, Data Extraction, Table Extraction Solution:
+Try out [ParseExtract](https://parseextract.com). Pay-As-you-Go Pricing, No Expiry, Accurate.
+
+---
 
 ### Support & Feedback:
 - Share and consider giving a Star if you found this repo helpful.
