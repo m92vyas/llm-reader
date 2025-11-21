@@ -12,11 +12,11 @@ Start for as little as $0.001 per URL, scale as needed, and never lose credits. 
 ### `2. Subscriptions That Actually Make Sense:`
 Apart from the Pay-As-You-Go Option if you prefer predictable monthly billing then Scrappey plans give you more value, and `unused credits roll over` so you never waste money.
 
-$15/month → 16,500 URLs ~84% cheaper than Firecrawl's $19 plan
+€15/month → 16,500 URLs ~84% cheaper than Firecrawl's $19 plan
 
-$49/month → 59,300 URLs
+€49/month → 59,300 URLs
 
-$99/month → 125,200 URLs ~9% cheaper than Firecrawl's $99 plan
+€99/month → 125,200 URLs ~9% cheaper than Firecrawl's $99 plan
 
 All with `unused credits roll over`
 
@@ -54,7 +54,7 @@ Our code for converting webpages into clean, LLM-ready text is open source. You 
   # visit scrappey request builder for more parameters
   json_data = {
       'cmd': 'request.get',
-      'url': 'https://parseextract.com/',
+      'url': 'your_url',
       # 'requestType': 'request', # if using HTTP request mode
       'browserActions': [
           {
