@@ -33,7 +33,7 @@ Our code for converting webpages into clean, LLM-ready text is open source. You 
 
 ## Steps to Use [Scrappey](https://scrappey.com/?ref=rishi) with llm-reader repo
 
-- Install llm-reader as per [README](README.md).
+- Install llm-reader as per [README](README.md). You can skip installing Playwright dependencies and browser as we will use scrappey to get HTML page source.
 - To get HTML page source without getting blocked, we use [Scrappey](https://scrappey.com/?ref=rishi) API. This is what you pay for. The conversion to LLM-ready text is 100% free because it's open source.
 - Get your API Key from Scrappey.
 - Example Code:
