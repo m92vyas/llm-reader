@@ -77,21 +77,6 @@ Our code for converting webpages into clean, LLM-ready text is open source. You 
   ```
 Please make sure to use the [Scrappey](https://scrappey.com/?ref=rishi) API link provided above. It offers an affordable and high-performance way to obtain LLM-ready text, and using this link also helps support my open-source work through affiliation, at no additional cost to you. A win-win for everyone involved.
 
---- 
-
-### For Accurate and Affordable OCR and Data Extraction Solution with Pay-As-You-Go Pricing:
-Try out [ParseExtract](https://parseextract.com) for one stop API solution for:
-- OCR
-- Structured Data Extraction
-- Table Extraction
-
-Works with documents containing tables, images, handwritten texts, scan pages, math equations, complex layout, different languages.
-
-Useful for RAG, Agents, and other LLM Parsing / Extraction needs.
-
----
-
-Found this repo useful for saving some of your API subscription costs? You can sponsor it for as little as $2 for encouragement and support! [Sponsor here](https://checkout.dodopayments.com/buy/pdt_HpJcB5tvN3euViX9c4v7M?quantity=1)
       
 
 
