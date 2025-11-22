@@ -185,8 +185,8 @@ https://github.com/m92vyas/llm-reader/wiki/Documentation
 ---
 
 ### To Scrape and Crawl without getting Blocked:
-- You can use [this guide](Cheaper_Alternative.md) for the most performant and affordable option compared to solutions like Firecrawl.
-- It shows an option to get Pay-As-You-Go Pricing with good performance and rates cheaper than Firecrawl. You will save in your subscription cost and also in downstream LLM usage cost.
+- You can use [this guide](Cheaper_Alternative.md) to get an pay as you go option compared to subscription based solutions like Firecrawl.
+- You can save in your subscription cost and also in downstream LLM usage cost.
 
 ---
 
