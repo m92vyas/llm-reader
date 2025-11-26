@@ -185,6 +185,7 @@ https://github.com/m92vyas/llm-reader/wiki/Documentation
 ---
 
 ### To Scrape and Crawl without getting Blocked:
+- You can replace the `get_page_source` function with any paid API or use your own proxies or scraping setup to get the page source. e.g. you can use a pay-as-you-go option like [Scrappey](https://scrappey.com/?ref=rishi) to get page source without getting blocked and then pass the HTML to `get_processed_text` function to get LLM text for free.
 - You can use [this guide](Cheaper_Alternative.md) to get an pay as you go option compared to subscription based solutions like Firecrawl.
 - You can save in your subscription cost and also in downstream LLM usage cost.
 
