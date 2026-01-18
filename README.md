@@ -201,7 +201,7 @@ Try out [ParseExtract](https://parseextract.com). Pay-As-you-Go Pricing, No Expi
 
 ---
 
-### If you to Redact your PDFs 100% locally:
+### To Redact your PDFs 100% locally:
 Try out [RedactLocal](https://redactlocal.parseextract.com). 100% on device redactions. True redaction instead of just adding black bars.
 
 ---
