@@ -201,9 +201,15 @@ Try out [ParseExtract](https://parseextract.com). Pay-As-you-Go Pricing, No Expi
 
 ---
 
+### If you to Redact your PDFs 100% locally:
+Try out [RedactLocal](https://redactlocal.parseextract.com). 100% on device redactions. True redaction instead of just adding black bars.
+
+---
+
 ### Support & Feedback:
 - Share and consider giving a Star if you found this repo helpful.
 - Open any issues or feature request.
 - Also try out the other repo [AI-web_scraper](https://github.com/m92vyas/AI-web_scraper) and leave a Star there if you find it useful.
 - Try out [ParseExtract](https://parseextract.com) for one stop API solution for OCR, Structured Data Extraction, Table Extraction for RAG, Agents, and other LLM Parsing / Extraction needs.
+- Try out [RedactLocal](https://redactlocal.parseextract.com).
 - Found this repo useful for saving some of your API subscription costs? You can sponsor it for as little as $2 for encouragement and support! [Sponsor here](https://checkout.dodopayments.com/buy/pdt_HpJcB5tvN3euViX9c4v7M?quantity=1)
