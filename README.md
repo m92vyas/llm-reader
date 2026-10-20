@@ -8,6 +8,14 @@ You can also refer to my other repo [AI-web_scraper](https://github.com/m92vyas/
 
 ---
 
+### Free Tools:
+
+[URL to Markdown](https://parseextract.com/url-to-markdown) (for direct URL to markdown conversion using bookmarklet)
+
+[HTML to Markdown](https://parseextract.com/html-to-markdown) (if you have HTML file/text)
+
+---
+
 ### Update for Old Users:
 
 We have switched from Selenium to Playwright for concurrent web scraping support. Kindly install the required playwright dependencies as given below.
