@@ -214,11 +214,18 @@ Try out [RedactLocal](https://redactlocal.parseextract.com). 100% on device reda
 
 ---
 
+### To Extract tables from PDFs/Images and convert them to Excel/CSV:
+Try out [this free tool](https://parseextract.com/table-extraction-free)
+
+or the [Offline Desktop App](https://parseextract.com/offline-table-extractor)
+
+---
+
 ### Support & Feedback:
 - Share and consider giving a Star if you found this repo helpful.
-- Open any issues or feature request.
-- I'm available for full-time remote AI Engineer role.
-- Also try out the other repo [AI-web_scraper](https://github.com/m92vyas/AI-web_scraper) and leave a Star there if you find it useful.
 - Try out [ParseExtract](https://parseextract.com) for one stop API solution for OCR, Structured Data Extraction, Table Extraction for RAG, Agents, and other LLM Parsing / Extraction needs.
 - Try out [RedactLocal](https://redactlocal.parseextract.com).
+- Try out the [Table Extractor Free Tool](https://parseextract.com/table-extraction-free) or the [Offline Desktop App](https://parseextract.com/offline-table-extractor)
+- Open any issues or feature request.
+- Also try out the other repo [AI-web_scraper](https://github.com/m92vyas/AI-web_scraper) and leave a Star there if you find it useful.
 - Found this repo useful? You can do a one time sponsor [here](https://checkout.dodopayments.com/buy/pdt_HpJcB5tvN3euViX9c4v7M?quantity=1).
